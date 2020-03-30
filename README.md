@@ -36,7 +36,7 @@ cd desktop
  3. in terminal type '_git clone {link to repository}_ '
 
 ```sh
-git clone https://github.com/dustatron/boilerplate-simple-website.git
+git clone {your repo}
 ```
 
 4. navigate to the new folder that was created on your desk
