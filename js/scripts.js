@@ -1,9 +1,12 @@
-var months = ["jan", "feb", "mar", "apr"];
+// var months = ["jan", "feb", "mar", "apr"];
 
-var new = months.toUpperCase;
-console.log;
+// var new = months.toUpperCase;
+// console.log;
 
-
+var languages = ['HTML', 'CSS', 'Javascript'];
+for (var index = 0; index < languages.length; index += 1) {
+  alert('I love ' + languages[index] + '!');
+}
 // var numbers = [1, 2, 3, 4, 5];
 
 // var doubleNumbers = numbers.map(function(number) {
