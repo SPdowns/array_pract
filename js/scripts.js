@@ -1,3 +1,7 @@
+var months = ["jan", "feb", "mar", "apr"];
+
+var new = months.toUpperCase;
+console.log;
 
 
 // var numbers = [1, 2, 3, 4, 5];
