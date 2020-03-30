@@ -11,5 +11,12 @@ $(document).ready(function() {
     console.log(myArray);
     $(".output").replaceWith(`<div class="output"><ul><li>${input1}</li><li>${input2}</li><li>${input3}</li></ul></div>`)
 
-	});
+  });
+  var total = 0;
+  var summands = [1, 2, 3, 4, 5];
+  summands.forEach(function(summand) {
+    total += summand;
+    console.log(total);
+});
+console.log(total);
 });
