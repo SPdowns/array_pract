@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     myArray.push(input1, input2, input3)
     console.log(myArray);
-    
+    $(".output").replaceWith(`<div class="output"><ul><li>${input1}</li><li>${input2}</li><li>${input3}</li></ul></div>`)
 
 	});
 });
